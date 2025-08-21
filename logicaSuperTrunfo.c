@@ -117,20 +117,23 @@ int main() {
 
     //menu de seleção para comparação atributos
     
-    printf("Essa é a hora da verdade! Escolha um dos seguintes atributos para batalhar: /n/n");
+    printf("Essa é a hora da verdade! Escolha um dos seguintes atributos para batalhar: \n\n");
     printf("1 - População\n");
     printf("2 - Área\n");
     printf("3 - PIB\n");
     printf("4 - Número de pontos turísticos\n");
     printf("5 - Densidade demográfica\n");
-    printf("6 - PIB per capta\n");
+    printf("6 - PIB per capta\n\n");
+    printf("Digite o atributo escolhido: ");
+    scanf("%d", &atributo_escolhido);
+    printf("\n\n");
 
     switch (atributo_escolhido)
     {
     case 1:
         printf("Muito bem, a disputa ocorrerá usando o atributo: População!\n\n");
-        printf("Carta 1 - %s: %u\n", nome_cidade01, populacao01);
-        printf("Carta 2 - %s: %u\n", nome_cidade02, populacao02);
+        printf("Carta 1 - %s: %lu\n", nome_cidade01, populacao01);
+        printf("Carta 2 - %s: %lu\n", nome_cidade02, populacao02);
         printf("\n");
 
          if (populacao01 == populacao02){
@@ -214,8 +217,8 @@ int main() {
 
     case 6:
         printf("Muito bem, a disputa ocorrerá usando o atributo: PIB per capta!\n\n");
-        printf("Carta 1 - %s: %d\n", nome_cidade01, pib_per_capita01);
-        printf("Carta 2 - %s: %d\n", nome_cidade02, pib_per_capita02);
+        printf("Carta 1 - %s: %.2f\n", nome_cidade01, pib_per_capita01);
+        printf("Carta 2 - %s: %.2f\n", nome_cidade02, pib_per_capita02);
         printf("\n");
 
          if (pib_per_capita01 == pib_per_capita02){
