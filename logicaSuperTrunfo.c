@@ -132,8 +132,8 @@ int main() {
     {
     case 1:
         printf("Muito bem, a disputa ocorrerá usando o atributo: População!\n\n");
-        printf("Carta 1 - %s: %lu\n", nome_cidade01, populacao01);
-        printf("Carta 2 - %s: %lu\n", nome_cidade02, populacao02);
+        printf("Carta 1 - %s: %lu habitantes\n", nome_cidade01, populacao01);
+        printf("Carta 2 - %s: %lu habitantes\n", nome_cidade02, populacao02);
         printf("\n");
 
          if (populacao01 == populacao02){
@@ -149,8 +149,8 @@ int main() {
 
     case 2:
         printf("Muito bem, a disputa ocorrerá usando o atributo: Área!\n\n");
-        printf("Carta 1 - %s: %.2f\n", nome_cidade01, area_01);
-        printf("Carta 2 - %s: %.2f\n", nome_cidade02, area_02);
+        printf("Carta 1 - %s: %.2f km²n", nome_cidade01, area_01);
+        printf("Carta 2 - %s: %.2f km²\n", nome_cidade02, area_02);
         printf("\n");
 
          if (area_01 == area_02){
@@ -166,8 +166,8 @@ int main() {
 
     case 3:
         printf("Muito bem, a disputa ocorrerá usando o atributo: PIB!\n\n");
-        printf("Carta 1 - %s: %.2f\n", nome_cidade01, pib01);
-        printf("Carta 2 - %s: %.2f\n", nome_cidade02, pib02);
+        printf("Carta 1 - %s: %.2f bilhoes de R$\n", nome_cidade01, pib01);
+        printf("Carta 2 - %s: %.2f bilhoes de R$\n", nome_cidade02, pib02);
         printf("\n");
 
          if (pib01 == pib02){
@@ -183,8 +183,8 @@ int main() {
 
     case 4:
         printf("Muito bem, a disputa ocorrerá usando o atributo: Número de pontos turísticos!\n\n");
-        printf("Carta 1 - %s: %d\n", nome_cidade01, pontos_turisticos01);
-        printf("Carta 2 - %s: %d\n", nome_cidade02, pontos_turisticos02);
+        printf("Carta 1 - %s: %d pontos turísticos\n", nome_cidade01, pontos_turisticos01);
+        printf("Carta 2 - %s: %d pontos turísticos\n", nome_cidade02, pontos_turisticos02);
         printf("\n");
 
          if (pontos_turisticos01 == pontos_turisticos02){
@@ -200,8 +200,8 @@ int main() {
     
     case 5:
         printf("Muito bem, a disputa ocorrerá usando o atributo: Densidade demográfica!\n\n");
-        printf("Carta 1 - %s: %.2f\n", nome_cidade01, densidade_populacional01);
-        printf("Carta 2 - %s: %.2f\n", nome_cidade02, densidade_populacional02);
+        printf("Carta 1 - %s: %.2f habitantes por km²\n", nome_cidade01, densidade_populacional01);
+        printf("Carta 2 - %s: %.2f habitantes por km²\n", nome_cidade02, densidade_populacional02);
         printf("\n");
 
          if (densidade_populacional01 == densidade_populacional02){
@@ -217,8 +217,8 @@ int main() {
 
     case 6:
         printf("Muito bem, a disputa ocorrerá usando o atributo: PIB per capta!\n\n");
-        printf("Carta 1 - %s: %.2f\n", nome_cidade01, pib_per_capita01);
-        printf("Carta 2 - %s: %.2f\n", nome_cidade02, pib_per_capita02);
+        printf("Carta 1 - %s: %.2f R$\n", nome_cidade01, pib_per_capita01);
+        printf("Carta 2 - %s: %.2f R$\n", nome_cidade02, pib_per_capita02);
         printf("\n");
 
          if (pib_per_capita01 == pib_per_capita02){
